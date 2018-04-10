@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+//    button handler
     @IBAction func showMessage(sender: UIButton) {
         let alertController = UIAlertController(title: "made by Faruk Kurtovic (kurtovic) for C4CS to give you good ideas fam",
                                                 message: "take C4CS bruh", preferredStyle: UIAlertControllerStyle.alert)
