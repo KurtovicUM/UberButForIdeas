@@ -21,9 +21,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMessage(sender: UIButton) {
-        let alertController = UIAlertController(title: "give me an idea fam",
+        let alertController = UIAlertController(title: "made by Faruk Kurtovic (kurtovic) for C4CS to give you good ideas fam",
                                                 message: "take C4CS bruh", preferredStyle: UIAlertControllerStyle.alert)
+        
         alertController.addAction(UIAlertAction(title: "sign me up fams", style: UIAlertActionStyle.default, handler: nil))
+        
         present(alertController, animated: true, completion: nil)
     }
 

@@ -13,14 +13,16 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UberButForIdeas" customModuleProvider="target" sceneMemberID="viewController">
-                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Geh-Z1-Fg3">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zXl-vq-VKr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal" title="give me an idea fam"/>
+                        <state key="normal" title="who made this, why?"/>
                         <connections>
-                            <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPm-i0-x1k"/>
+                            <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3iz-Wb-5zx"/>
                         </connections>
                     </button>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
